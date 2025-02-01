@@ -1,7 +1,7 @@
 const Total = (props) => {
-    const { content } = props;
+    const { parts } = props;
 
-    const totalExercises = content.reduce((acc, cur) => acc += cur.exercises, 0);
+    const totalExercises = parts.reduce((acc, cur) => acc += cur.exercises, 0);
 
     return (
         <p>Number of exercises {totalExercises} </p>

@@ -3,11 +3,13 @@ import Content from './components/Content';
 import Total from './components/Total';
 import data from './data';
 
+console.log(data)
+
 const App = () => (
   <div>
-    <Header title={data.course} />
-    <Content content={data.content} />
-    <Total content={data.content} />
+    <Header name={data.name} />
+    <Content parts={data.parts} />
+    <Total parts={data.parts} />
   </div>
 );
 

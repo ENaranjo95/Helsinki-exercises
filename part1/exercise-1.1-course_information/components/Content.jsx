@@ -1,15 +1,16 @@
 import Part from './Part';
 
 const Content = (props) => {
-    const { content } = props;
+    console.log(props)
+    const { parts } = props;
 
     return (
         <>
-            {content.map((contentPart, index) => (
+            {parts.map((part, index) => (
                 <Part 
-                    text={contentPart.text} 
-                    exercises={contentPart.exercises}
-                    key={`${JSON.stringify(contentPart)}-${index}`}
+                    name={part.name} 
+                    exercises={part.exercises}
+                    key={`${JSON.stringify(part)}-${index}`}
                 />
             ))}
         </>
