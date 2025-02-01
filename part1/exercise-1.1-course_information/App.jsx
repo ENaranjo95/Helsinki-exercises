@@ -1,8 +1,8 @@
 import Header from './components/Header';
+import Content from './components/Content';
 import data from './data';
 
 const App = () => {
-  const course = 'Half Stack application development'
   const part1 = 'Fundamentals of React'
   const exercises1 = 10
   const part2 = 'Using props to pass data'
@@ -13,15 +13,7 @@ const App = () => {
   return (
     <div>
       <Header title={data.course} />
-      <p>
-        {part1} {exercises1}
-      </p>
-      <p>
-        {part2} {exercises2}
-      </p>
-      <p>
-        {part3} {exercises3}
-      </p>
+      <Content content={data.content} />
       <p>Number of exercises {exercises1 + exercises2 + exercises3}</p>
     </div>
   )
