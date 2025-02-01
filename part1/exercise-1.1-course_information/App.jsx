@@ -1,3 +1,4 @@
+import Header from './components/Header';
 import data from './data';
 
 const App = () => {
@@ -11,7 +12,7 @@ const App = () => {
 
   return (
     <div>
-      <h1>{course}</h1>
+      <Header title={data.course} />
       <p>
         {part1} {exercises1}
       </p>
