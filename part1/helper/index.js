@@ -1,0 +1,1 @@
+export const createUniqueKey = (value, index) => `${JSON.stringify(value)}-${index}`;
