@@ -2,7 +2,7 @@ import StatisticLine from "./StatisticLine";
 const Statistics = (props) => {
     const { good, neutral, bad } = props;
 
-    const averageScore = good - bad / (good + neutral + bad);
+    const averageScore = (good - bad) / (good + neutral + bad);
     const positiveScore = (good / (good + neutral + bad)) * 100;
 
     if (good === 0 && neutral === 0 && bad === 0) {
