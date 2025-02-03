@@ -1,8 +1,8 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
+import App from './App';
 
-export default () => createRoot(document.getElementById('course-info')).render(
+export default () => createRoot(document.getElementById('unicafe')).render(
   <StrictMode>
     <App />
   </StrictMode>,
