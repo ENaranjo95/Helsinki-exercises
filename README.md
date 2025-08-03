@@ -1,4 +1,4 @@
-# Prerequesities
+# Prerequisites
 Node Version 22.18.0
 
 ## Part 0 Exercises
