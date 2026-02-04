@@ -6,7 +6,7 @@ const Course = (props) => {
     
     return (
         <div>
-            <Header as="h1" title={course.name} />
+            <Header as="h2" title={course.name} />
             <Content parts={course.parts} />
         </div>
     )

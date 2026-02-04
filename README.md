@@ -6,7 +6,7 @@ Node Version 22.18.0
 [X] - Done
 
 ## Part 1 Exercises
-[ ] - Done
+[X] - Done
 
 
 # Additional Notes 
